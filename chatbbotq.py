@@ -7,7 +7,7 @@ import datetime
 app = Flask(__name__)
 
 # Google Sheets setup
-SERVICE_ACCOUNT_FILE = 'C:\chatbot\superb-tendril-461120-u6-5e3173951b68.json'
+SERVICE_ACCOUNT_FILE = '/etc/secrets/google.json'
 SPREADSHEET_ID = '1BohoQznTomfUXVBAKbq4qh6CZJTH36iOquvtI_ADKjA'
 RANGE_NAME = 'Sheet1!A:E'
 
